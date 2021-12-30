@@ -135,9 +135,9 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "51923568749"; 
-owner = "51923568749"; 
-fakeyoi = "Confu"; 
+targetpc = "50369639849"; 
+owner = "50369639849"; 
+fakeyoi = "Robert503"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -146,7 +146,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@51923568749"; 
+nomorowner1 = "@50369639849"; 
 fake = `𝗖𝗿𝗲𝗮𝗱𝗼𝗿 : ${fakeyoi}\n︎𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -348,7 +348,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await cnf.chats.all();
-    const ownerNumber = [`51923568749@s.whatsapp.net`]
+    const ownerNumber = [`50369639849@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(cnf, mek);
     const groupMetadata = isGroup ? await cnf.groupMetadata(from) : "";
@@ -379,7 +379,7 @@ const isBanned = banned.includes(sender)
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `Hola ${pushname} ${ucapanWaktu}\n\nAntes de usar el bot, verifiquese primero`
-       const daftar2 = '```Si no ves el botón escribe #verify```'
+       const daftar2 = '```Si no ves el botón escribe .verify```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -482,7 +482,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "ConfuBot4",
+          orderTitle: "𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -793,11 +793,11 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`),
             },
-            title: "ConfuBot4",
+            title: "𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛",
             description: "Bot24/7",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "By ConfuMods",
+            retailerId: "By Robert503",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -933,14 +933,14 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"CONSULTA","surface":"CATALOG","message":`ConfuMods`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"CONSULTA","surface":"CATALOG","message":`Robert503`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Catalogo
 /*const reply = (teks) => {
-             res = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*ConfuMods*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Robert503*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              cnf.relayWAMessage(res)
         }*/
 const fakewa = (teks) => {        
-cnf.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `ConfuBot4`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/51923568749?text=hola%20confu`}}})
+cnf.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/50369639849?text=hola%20Robert`}}})
 		}
 const replyfakelink = (teks) => {
 cnf.sendMessage(from, teks, text,{contextInfo :{text: 'Hola',
@@ -948,7 +948,7 @@ cnf.sendMessage(from, teks, text,{contextInfo :{text: 'Hola',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `ConfuBot4\n•Instagram (@confumods)`,
+                "title": `𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛\n•Instagram (@confumods)`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/QJRWXb9/IMG-20211107-WA0044.jpg",
@@ -963,12 +963,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `WhatsApp`,
-                "body": `wa.me/51923568749`,
+                "body": `wa.me/50369639849`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/51923568749`,
+                "mediaUrl": `wa.me/50369639849`,
                 "thumbnailUrl": "https://i.ibb.co/QJRWXb9/IMG-20211107-WA0044.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/51923568749`,
+                "sourceUrl": `wa.me/50369639849`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1136,12 +1136,20 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
     };
     
     if (isGroup && isAntilink && !mek.key.fromMe) {
-      if (budy.includes("://chat.whatsapp.com/")) {
+      if (budy.includes("https://")) {
         if (isGroupAdmins) return
         reply("ANTILINK!! LO SENTIMOS NO SE PERMITEN ENLACES HDPTA :V");
         cnf.groupRemove(from, [sender]);
       }
     }
+	  
+    if (isGroup && isAntilink && !mek.key.fromMe) {
+      if (budy.includes(".com")) {
+        if (isGroupAdmins) return
+        reply("ANTILINK!! LO SENTIMOS NO SE PERMITEN ENLACES HDPTA :V");
+        cnf.groupRemove(from, [sender]);
+      }
+    }	  
 
     if (isGroup && isAntivirtex && !mek.key.fromMe) {
       if (budy.length > 500000) {
@@ -1198,11 +1206,11 @@ const serialUser = createSerial(18)
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4 」*`
+*「 𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `🌿MENU🌿`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'ConfuMods', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'Robert503', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               cnf.relayWAMessage(prep)
@@ -1210,7 +1218,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			cnf.updatePresence(from, Presence.composing)
-			reply(`*Gracias por registrarse en 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4*`)
+			reply(`*Gracias por registrarse en 𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛*`)
 		}, 2000)
         break
       
@@ -1227,7 +1235,7 @@ groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-       txtt =`Hola! ${pushname} 👋\n\nSI EL MENÚ NO APARECE AL HACER CLIC EN EL BOTÓN DE MENÚ, ESCRIBA #allmenu`
+       txtt =`Hola! ${pushname} 👋\n\nSI EL MENÚ NO APARECE AL HACER CLIC EN EL BOTÓN DE MENÚ, ESCRIBA .allmenu`
 
                buttons = [{buttonId:`allmenu`, 
                buttonText:{displayText: 'MENU🌱'},type:1},
@@ -1269,8 +1277,8 @@ groups = cnf.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "51923568749@s.whatsapp.net"
-        dtod = '51923568749'
+        ptod = "50369639849@s.whatsapp.net"
+        dtod = '50369639849'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1470,7 +1478,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=boobs&apikey=${hardi}`)
 buttons = [{buttonId: `boobs`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -1483,7 +1491,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ecchi?apikey=${lolh}`)
 buttons = [{buttonId: `ecchi`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1496,7 +1504,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/ahegao?apikey=${lolh}`)
 buttons = [{buttonId: `ahegao`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1510,7 +1518,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/yaoi?apikey=${lolh}`)
 buttons = [{buttonId: `yaoi`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -1524,20 +1532,20 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://api.lolhuman.xyz/api/random2/futanari?apikey=${lolh}`)
 buttons = [{buttonId: `futa`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
 break
 case 'creditos':
 if (isBanned) return  reply(mess.banned)
-   dtod = '51923568749'
+   dtod = '50369639849'
    var yez = `
    [ 𝐶𝑟𝑒𝑑𝑖𝑡𝑜𝑠 ] :
    
  🌿 : wa.me/${dtod.split('@')[0]}
  `
-     credit = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "By Confu", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
+     credit = cnf.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${yez}`, "footerText": "By Robert503", "thumbnail": iye, "surface": 'CATALOG'}}, {quoted: mek})
             cnf.relayWAMessage(credit)
         break
 
@@ -1673,7 +1681,7 @@ sendBug(args[0])
 break
                      				case 'crash': 
 if (!mek.key.fromMe) return;
-cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧𝐟𝐮𝐌𝐨𝐝𝐬', MessageType.extendedText, {
+cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 ROBERT503', MessageType.extendedText, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net'
@@ -1683,7 +1691,7 @@ cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧�
     itemCount: 9999999, 
     status: 1,
     surface: 1,
-    message: '𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭𝟐',
+    message: '𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛',
     orderTitle: 'BY CONFUMODS ', // 
     sellerJid: '0@s.whatsapp.net' //
    }
@@ -1966,11 +1974,11 @@ if (isBanned) return  reply(mess.banned)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+ footerText: '𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛',
  description: `Hola @${sender.split('@')[0]}, Seleccione el menú aquí`,
  sections: [
                      {
-                      "title": `ConfuBot4`,
+                      "title": `𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`,
  rows: [
                            {
                               "title": "Speed",
@@ -2030,7 +2038,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘥𝘦 𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢𝘴🌿
 
 🌿${prefix}twitter <link>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2069,7 +2077,7 @@ menu = `🌿𝘎𝘳𝘶𝘱𝘰 𝘔𝘦𝘯𝘶︎🌿
 
 🌿${prefix}autojoin
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` 𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2125,7 +2133,7 @@ menu = `シ︎𝘊𝘳𝘦𝘢𝘥𝘰𝘳 𝘔𝘦𝘯𝘶シ︎
 
 🌿${prefix}eval <code>
 `
-sendButMessage(from, menu, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, `𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2184,7 +2192,7 @@ menu = `🌿𝘔𝘦𝘯𝘶 𝘷𝘢𝘳𝘪𝘢𝘥𝘰🌿
 
 🌿${prefix}playstore <texto>
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` 𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2232,7 +2240,7 @@ menu = `🌿Creador Menu🌿
 
 🌿${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
+sendButMessage(from, menu, ` 𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -3362,7 +3370,7 @@ sendButMessage(from, tiyo, `𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4`, [
              for (let _ of anu) {
 cnf.sendMessage(_.jid, 
 			{"contentText": `*「 DIFUSIÓN 」*\n\n${body.slice(4)}`,
-			"footerText": '𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4',
+			"footerText": '𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛',
 			"buttons": [
 			{"buttonId": `${prefix}allmenu`,
 			"buttonText": {"displayText": "CLICK PARA VER EL MENU"
@@ -3382,7 +3390,7 @@ reply(mess.wait)
 kon = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=yuri&apikey=${hardi}`)
 buttons = [{buttonId: `yuri`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(kon, "imageMessage", { thumbnail: kon, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3395,7 +3403,7 @@ reply(mess.wait)
 aku = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=anal&apikey=${hardi}`)
 buttons = [{buttonId: `anal`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(aku, "imageMessage", { thumbnail: aku, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3408,7 +3416,7 @@ reply(mess.wait)
 kau = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=lesbian&apikey=${hardi}`)
 buttons = [{buttonId: `lesbian`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(kau, "imageMessage", { thumbnail: kau, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3421,7 +3429,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=eroNeko&apikey=${hardi}`)
 buttons = [{buttonId: `eroneko`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3434,7 +3442,7 @@ reply(mess.wait)
 yoiz = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=bJ&apikey=${hardi}`)
 buttons = [{buttonId: `bj`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(yoiz, "imageMessage", { thumbnail: yoiz, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -3447,7 +3455,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=kitsune&apikey=${hardi}`)
 buttons = [{buttonId: `kitsune`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3460,7 +3468,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=pussy&apikey=${hardi}`)
 buttons = [{buttonId: `pussy`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3473,7 +3481,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=wallpaper&apikey=${hardi}`)
 buttons = [{buttonId: `wallpaper`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3486,7 +3494,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=neko&apikey=${hardi}`)
 buttons = [{buttonId: `neko2`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3499,7 +3507,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=baka&apikey=${hardi}`)
 buttons = [{buttonId: `baka`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3512,7 +3520,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=slap&apikey=${hardi}`)
 buttons = [{buttonId: `slap`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3525,7 +3533,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?sfw=poke&apikey=${hardi}`)
 buttons = [{buttonId: `poke`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3538,7 +3546,7 @@ reply(mess.wait)
 hai = await getBuffer(`https://hardianto-chan.herokuapp.com/api/anime/random?nsfw=keta&apikey=${hardi}`)
 buttons = [{buttonId: `keta`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(hai, "imageMessage", { thumbnail: hai, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota: No hacer spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: fvn})
               cnf.relayWAMessage(prep)
@@ -3875,7 +3883,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
         let di = await getBuffer(ac);
 buttons = [{buttonId: `pinterest ${q}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await cnf.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'𝗖𝗼𝗻𝗳𝘂𝗕𝗼𝘁4', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛', imageMessage: imageMsg,
               contentText:`Nota : no agan spam`,buttons,headerType:4}
               prep = await cnf.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               cnf.relayWAMessage(prep)
@@ -5014,7 +5022,7 @@ cnf.sendMessage(from, stdout, text, term)
     if (isGroup && budy != undefined) {
     } else {
       console.log(
-        color("[]ConfuBot4[]", "red"),
+        color("[]𝘊𝘖𝘚𝘌𝘛𝘛𝘌_𝘉𝘖𝘛[]", "red"),
         "ConfuMods",
         color(sender.split("@")[0])
       );
