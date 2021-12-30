@@ -48,10 +48,10 @@ const runtime = function (seconds) {
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 fakenomor = '0@s.whatsapp.net'
-const gcrevoke = ["51923568749-1621430788@g.us"]
-prefix = '#'
+const gcrevoke = ["50374105315-1621430788@g.us"]
+prefix = '.'
 shp = '⬡'
-owner = "51923568749@s.whatsapp.net"
+owner = "50369639849@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
@@ -64,15 +64,15 @@ const sleep = async (ms) => {
 const starts = async (client = new WAConnection()) => {
   client.logger.level = "warn";
   client.version = [2, 2143, 3];
-  client.browserDescription = ["ConfuMods", "Chrome", "3.0"];
-console.log(color(figlet.textSync('Confu Bot 4.', {
+  client.browserDescription = ["Cosette", "Chrome", "3.0"];
+console.log(color(figlet.textSync('cosette.', {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
 width: 80,
 whitespaceBreak: false
 }), 'cyan'))
-console.log(color(`[ • CREADOR CONFUMODS • ]` ,'cyan'))
+console.log(color(`[ • CREADOR ROBERT503 • ]` ,'cyan'))
 console.log(color(`< ================================================== >`, 'cyan'))
 console.log(color(`[•]`, 'aqua'), color(`Hola        : ${ucapanWaktu}`, 'white'))
 console.log(color(`[•]`, 'aqua'), color(`Bot Version : 2.1.2`, 'white'))
@@ -92,7 +92,7 @@ whitespaceBreak: false
       color("!", "blue"),
       color("]", "white"),
       color(" flashy scan the qr code"),
-      client.sendMessage(`51923568749@s.whatsapp.net`, `「 *NOTIFICACIÓN!* 」\n\n _Bot Conectado Con Éxito!_`, MessageType.extendedText)
+      client.sendMessage(`50374105315@s.whatsapp.net`, `「 *NOTIFICACIÓN!* 」\n\n _Bot Conectado Con Éxito!_`, MessageType.extendedText)
           
     );
   });
@@ -125,10 +125,10 @@ await client.connect({ timeoutMs: 30 * 1000 });
 client.on('group-update', async (anu) => {
 fkontakk = { key: {
   fromMe: false,
-    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '51923568749-1604595598@g.us' } : {})
+    participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '50374105315-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Confu',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;ConfuMods;;;\nFN:Creador\nitem1.TEL;waid=51923568749:+51 923 568 749\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'Robert503',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Cosette;;;\nFN:Creador\nitem1.TEL;waid=50369639849:+50369639849\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
@@ -169,7 +169,7 @@ console.log(`- [ NUEVA DESC ] - En ${metdata.subject}`)
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60";
       }
       if (anu.action == "add" && mem.includes(client.user.jid)) {
-        client.sendMessage(anu.jid, "Hola putas ya llegue yo 🐢", "conversation");
+        client.sendMessage(anu.jid, "Hola putas ya llegue waifu #2 de robert503", "conversation");
       }
 hehe = await getBuffer(pp_user)
 if (anu.action == 'add' && !mem.includes(client.user.jid)) {
